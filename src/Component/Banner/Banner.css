@@ -1,0 +1,37 @@
+.bgpart{
+    background-color: #251f83;
+    color: white;
+}
+.bannerheading{
+    font-size: 50px;
+}
+.startedbtn{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.startedbtn:hover{
+    border: 2px solid #251f83;
+    background-color: white;
+    color: #251f83;
+}
+.impart{
+    height: 350px;
+}
+.supertext{
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Adjust colors and angle as desired */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent; 
+}
+
+@media (max-width:400px){
+    .impart{
+        height: 200px;
+        width: 300px;   
+    } 
+    .bannerheading{
+        font-size: 30px;
+    }  
+}

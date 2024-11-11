@@ -1,0 +1,45 @@
+.rvt{
+    font-weight: 700;
+    color: #291571;
+}
+.rvt:hover{
+    color: #291571;
+}
+.navtxt{
+    color: #291571;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px; 
+}
+
+
+  .navtxt:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px; 
+    background-image: linear-gradient(to right,#D10D14,#6B060A); 
+    transform: scaleX(0.8);
+    transition: transform 0.3s ease; 
+  }
+  
+  .navtxt::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px; 
+    background-image: linear-gradient(to right,#D10D14,#6B060A);
+    border-radius: 5px; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease; 
+  }
+  
+    
+    
+    
+  

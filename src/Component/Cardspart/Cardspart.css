@@ -1,0 +1,17 @@
+.serviceheading{
+    color: #251f83;
+}
+.cardsbg{
+    /* background-image: linear-gradient(#251f83 50%,white 50%); */
+    
+    height: 100vh;
+}
+
+.brd{
+    border: none;
+    text-align: center;
+}
+.cardtitle{
+    color: #251f83;
+    
+}
