@@ -2,3 +2,20 @@
     color: white;
     background-color: #251f83;
 }
+.nav-link{
+    cursor: pointer;
+}
+.subscribebox{
+    background: linear-gradient(45deg, rgba(37, 31, 131, 0.4), rgba(65, 59, 149, 0.4), rgba(37, 31, 131, 0.4));
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    color: white;
+}
+.submitbtn{
+    background-color: #251f83;
+    color: #fff;
+    border: 0px;
+}

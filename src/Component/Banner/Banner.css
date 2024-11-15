@@ -3,7 +3,7 @@
     color: white;
 }
 .bannerheading{
-    font-size: 50px;
+    font-size: 60px;
 }
 .startedbtn{
     border: 2px solid white;
@@ -16,7 +16,7 @@
     color: #251f83;
 }
 .impart{
-    height: 350px;
+    max-height: 500px;
 }
 .supertext{
     background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Adjust colors and angle as desired */
@@ -26,10 +26,10 @@
   text-fill-color: transparent; 
 }
 
-@media (max-width:400px){
+@media (max-width:427px){
     .impart{
-        height: 200px;
-        width: 300px;   
+       max-height: 400px;
+         
     } 
     .bannerheading{
         font-size: 30px;

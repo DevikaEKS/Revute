@@ -21,7 +21,7 @@
     right: 0;
     bottom: 0;
     height: 3px; 
-    background-image: linear-gradient(to right,#D10D14,#6B060A); 
+    background-image: linear-gradient(to right,#ff7e5f, #feb47b); 
     transform: scaleX(0.8);
     transition: transform 0.3s ease; 
   }
@@ -33,7 +33,7 @@
     right: 0;
     bottom: 0;
     height: 3px; 
-    background-image: linear-gradient(to right,#D10D14,#6B060A);
+    background-image: linear-gradient(to right,#ff7e5f, #feb47b);
     border-radius: 5px; 
     transform: scaleX(0);
     transition: transform 0.3s ease; 

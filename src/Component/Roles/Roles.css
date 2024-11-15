@@ -1,45 +1,5 @@
-.techstack-container {
-    padding: 40px 0;
-    overflow: hidden;
-
+.bgclr{
+    background-image: linear-gradient(45deg,#291571,#170949,rgb(55, 12, 140));
   }
-  
-  .lmshead {
-    margin-bottom: 40px;
-    font-size: 2rem;
-    color: #291571;
-  }
-  
-  .scroll-container {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
-  .scroll-content {
-    display: inline-flex;
-    animation: scroll 20s linear infinite;
-  }
-  
-  .scbox {
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 20px; /* Adds padding inside each box */
-    font-size: 1.25rem;
-    border-bottom: 1px solid #291571;
-    /* box-shadow: 1px 2px 2px 2px rgb(115, 115, 115); */
-    margin: 0 10px;
-    color: #291571;
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+ 
   

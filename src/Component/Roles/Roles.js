@@ -1,34 +1,11 @@
 import React from 'react';
 import './Roles.css';
-
+import rolesimg from "../Asset/Group 80.png";
 function Roles() {
   return (
-    <div className="container-fluid techstack-container" id='roles'>
-      <h1 className="text-center lmshead">OUR ROLES</h1>
-      <div className="scroll-container my-5">
-        <div className="scroll-content">
-          
-          <div className='scbox'><p>Retail Broking</p></div>
-          <div className='scbox'><p>Wealth Manager</p></div>
-          <div className='scbox'><p>Relationship Officer</p></div>
-          <div className='scbox'><p>Relationship Manager</p></div>
-          <div className='scbox'><p>Investment Banking Analyst</p></div>
-
-          <div className='scbox'><p>Retail Broking</p></div>
-          <div className='scbox'><p>Wealth Manager</p></div>
-          <div className='scbox'><p>Relationship Officer</p></div>
-          <div className='scbox'><p>Relationship Manager</p></div>
-          <div className='scbox'><p>Investment Banking Analyst</p></div>
-
-          <div className='scbox'><p>Retail Broking</p></div>
-          <div className='scbox'><p>Wealth Manager</p></div>
-          <div className='scbox'><p>Relationship Officer</p></div>
-          <div className='scbox'><p>Relationship Manager</p></div>
-          <div className='scbox'><p>Investment Banking Analyst</p></div>
-          
-          
-        </div>
-      </div>
+    <div className="container-fluid bgclr" id='roles'>
+      <h1 className='text-center text-light py-3'>Roles</h1>
+      <img src={rolesimg} alt='Roles' className='img-fluid'/>
     </div>
   );
 }
